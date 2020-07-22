@@ -1,0 +1,6 @@
+%h1 Bienvenido a la pagina
+
+
+-if user_signed_in?
+ =link_to "Cerrar sesion",destroy_user_session_path, method: :delete
+/comentario
